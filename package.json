@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -11,11 +14,11 @@
     "semantic-ui-react": "^0.88.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-stage-1": "^7.8.3",
     "babel-loader": "^8.1.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-1": "^6.24.1",
     "css-loader": "^3.6.0",
     "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
